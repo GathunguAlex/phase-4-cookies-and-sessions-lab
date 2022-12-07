@@ -25,17 +25,17 @@ class ArticlesController < ApplicationController
 
 end
 
-Articles
-  GET /articles
-    returns an array of all articles
-  GET /articles/:id
-    with one pageviews
-      returns the correct article
-      uses the session to keep track of the number of page views
-    with three pageviews
-      returns the correct article
-      uses the session to keep track of the number of page views
-    with more than three pageviews
-      returns an error message
-      returns a 401 unauthorized status
-      uses the session to keep track of the number of page views
+# Articles
+#   GET /articles
+#     returns an array of all articles
+#   GET /articles/:id
+#     with one pageviews
+#       returns the correct article
+#       uses the session to keep track of the number of page views
+#     with three pageviews
+#       returns the correct article
+#       uses the session to keep track of the number of page views
+#     with more than three pageviews
+#       returns an error message
+#       returns a 401 unauthorized status
+#       uses the session to keep track of the number of page views
